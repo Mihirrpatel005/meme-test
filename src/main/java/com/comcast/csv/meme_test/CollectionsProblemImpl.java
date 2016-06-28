@@ -13,6 +13,7 @@ class MemosortbyYear implements Comparator<Meme> {
 	public int compare(Meme m1, Meme m2) {
 
 		/// by year sort
+		// using comparator 
 		return (m1.getYear() < m2.getYear()) ? -1 : (m1.getYear() > m2.getYear()) ? 1 : 0;
 
 	}
